@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Roboto, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: url(/bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.container  {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 100px;
+    color: azure;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
